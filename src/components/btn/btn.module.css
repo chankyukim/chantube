@@ -1,0 +1,22 @@
+.btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+  /* box-shadow: 0 0 12px rgba(0, 0, 0, 0.2); */
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.prev {
+  top: 50%;
+  left: 0;
+  transform: translateX(-6rem);
+}
+
+.next {
+  top: 50%;
+  right: 0;
+  transform: translateX(6rem);
+}

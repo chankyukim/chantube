@@ -8,6 +8,7 @@ const Header = () => {
   const handleSubmit = e => {
     e.preventDefault();
   };
+
   return (
     <header className={styles.header}>
       <div className={styles.logo}>

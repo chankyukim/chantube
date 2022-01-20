@@ -1,0 +1,33 @@
+.thumbnail-box {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.thumbnail-box img {
+  width: 30rem;
+  display: block;
+  cursor: pointer;
+}
+
+.thumbnail-detail {
+  display: flex;
+  padding: 1rem 0;
+}
+
+.thumbnail-detail img {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.thumbnail-detail div {
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.thumbnail-title {
+  font-size: 1.2rem;
+}
+
+.channel-title {
+  font-size: 1.1rem;
+}
