@@ -4,14 +4,20 @@
 }
 
 .thumbnail-box img {
-  width: 30rem;
+  width: 100%;
   display: block;
   cursor: pointer;
+
+  transition: all 0.4s;
+}
+
+.thumbnail-box img:hover {
+  transform: scale(1.1);
 }
 
 .thumbnail-detail {
   display: flex;
-  padding: 1rem 0;
+  padding: 0.8rem 0;
 }
 
 .thumbnail-detail img {
